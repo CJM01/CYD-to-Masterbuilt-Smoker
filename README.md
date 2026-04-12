@@ -10,7 +10,7 @@ A working Arduino project that connects a **Cheap Yellow Display (CYD)** to a **
 
 | Part | Details |
 |------|---------|
-| Display | Hosyond 4" ESP32-3248S040 ("CYD") |
+| Display | [Hosyond 4" ESP32-3248S040 CYD](https://www.lcdwiki.com/4.0inch_ESP32-32E_Display) |
 | Screen | ST7796, 320×480, SPI |
 | Touch | XPT2046 |
 | MCU | ESP32 (onboard) |
