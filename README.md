@@ -94,6 +94,7 @@ tools/
 docs/
   ble_protocol.md             ← Full reverse-engineered BLE protocol reference
   lessons_learned.md          ← Every dead end and why, so you don't repeat them
+  development_history.md      ← stage-by-stage walkthrough of the whole
 ```
 
 ---
