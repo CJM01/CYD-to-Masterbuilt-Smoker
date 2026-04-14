@@ -160,12 +160,22 @@ To investigate: use nRF Connect on Android, write common byte sequences (`0x01`,
 
 ## Discovery Method
 
-1. Used **nRF Connect** (Android) to scan and identify `MASTERB...T SMOKER`
-2. Connected and browsed the GATT CLIENT tab to enumerate all services and characteristics
-3. Identified fff4 as primary data source (only characteristic with NOTIFY property)
-4. Built a **diagnostic Arduino sketch** that subscribes to fff4 and prints raw bytes + every candidate decoding formula to Serial Monitor
-5. Cross-referenced Serial output against the smoker's physical display at known temperatures
-6. Matched `byte[4]` and `byte[6]` as direct °F values
+All protocol information was found through passive BLE discovery — no hardware sniffer, no app decompilation, no proprietary tools.
+
+**Tools used:**
+- **nRF Connect** (Android, free) — for scanning, connecting, and reading characteristics
+- **Arduino Serial Monitor** — for running the diagnostic sketch and comparing raw bytes against the smoker display
+
+**Process summary:**
+1. Powered on the smoker, scanned with nRF Connect, connected to `MASTERB...T SMOKER`
+2. Opened the CLIENT tab, expanded the Unknown Service (`426f7567-...fff0`)
+3. Noted fff4 as the only NOTIFY characteristic — identified it as the live data source
+4. Subscribed to fff4 in nRF Connect to confirm data was flowing
+5. Flashed the diagnostic sketch (`tools/smoker_diagnostic/`) to the CYD
+6. Compared Serial Monitor output against the smoker's physical display at known temperatures
+7. Identified bytes 4 and 6 as direct °F values
+
+**For a complete step-by-step walkthrough of this process**, including how to use every feature of nRF Connect and how to decode unknown byte formats, see [nrf_connect_guide.md](nrf_connect_guide.md).
 
 ---
 
