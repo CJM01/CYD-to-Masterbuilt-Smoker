@@ -75,7 +75,7 @@ tft.setTouch(calData);
 
 NOTE: This is my calibration for this board and should work with similar size screens, should.
       There's a screen calibration tool in Arduino: Files/Examples/TFT-eSPI/Generic/Touch_calibrate
-      The output is desplayed in the Serial Monitor, Tools/Serial Monitor
+      The output is displayed in the Arduino Serial Monitor, Tools/Serial Monitor
 ```
 
 ---
