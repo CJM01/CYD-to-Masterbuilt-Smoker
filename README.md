@@ -84,9 +84,10 @@ NOTE: This is my calibration for this board and should work with similar size sc
 
 1. Install **NimBLE-Arduino** via Arduino Library Manager
 2. Configure `TFT_eSPI` User_Setup as above
-3. Open `src/Masterbuilt_Temp/Masterbuilt_Temp.ino`
-4. Flash to your CYD
-5. Power on the smoker — the CYD connects automatically and displays live temps
+3. Use nRF Connect to find bluetooth info
+4. Open and edit `src/Masterbuilt_Temp/Masterbuilt_Temp.ino`
+5. Flash to your CYD
+6. Power on the smoker — the CYD connects automatically and displays live temps
 
 ---
 
