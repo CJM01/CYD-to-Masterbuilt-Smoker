@@ -154,9 +154,9 @@ Status char  : 426f7567-6854-6563-2d57-65694c69fff2  (fff2 — READ, returns zer
 
 - [ ] Target temp display with progress indicator
 - [ ] Probe alarm (touch to set target, buzzer/flash on reach)
-- [ ] Second probe support (byte 8)
-- [ ] Temperature graph / sparkline over cook session
-- [ ] Cook timer
+- [x] Temperature graph / sparkline over cook session
+- [x] Cook timer
+- [ ] Button to Start and Stop timer
 
 ---
 
