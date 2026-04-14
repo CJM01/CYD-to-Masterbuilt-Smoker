@@ -68,7 +68,7 @@ Place this in your TFT_eSPI `User_Setup.h` (or `User_Setup_Select.h`):
 #define SPI_TOUCH_FREQUENCY  2500000
 ```
 
-Touch calibration:
+Touch calibration (not used but here incase you want buttons or tabs):
 ```cpp
 uint16_t calData[5] = { 305, 3590, 251, 3482, 7 };
 tft.setTouch(calData);
