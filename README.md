@@ -1,8 +1,11 @@
 # Masterbuilt Smoker BLE Monitor — CYD Display
 
+Made with Claude AI
 A working Arduino project that connects a **Cheap Yellow Display (CYD)** to a **Masterbuilt 20070215 Bluetooth electric smoker** and shows live probe and box temperatures on the touchscreen.
 
 > This repo documents the full journey: hardware setup, BLE reverse engineering, dead ends, and the final working solution. If you landed here searching for Masterbuilt BLE protocol info — you're in the right place.
+>
+> ![CYD with app](docs/Screenshot.jpg)
 
 ---
 
