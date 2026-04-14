@@ -24,8 +24,8 @@
 ---
 
 ## Software
-| [Arduino IDE](https://www.arduino.cc/en/software) |
-| nRF Connect [IOS App](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403) [Andriod App](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=en_US) [Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop?utm_feeditemid=&utm_device=c&utm_term=&utm_source=google&utm_medium=ppc&utm_campaign=Pmax+%7C+Wi-Fi+%7C+US&hsa_cam=23209587568&hsa_grp=&hsa_mt=&hsa_src=x&hsa_ad=&hsa_acc=1116845495&hsa_net=adwords&hsa_kw=&hsa_tgt=&hsa_ver=3&gad_source=1&gad_campaignid=23205419936&gbraid=0AAAAADPygHIKDIqOxaDnVAOG_assCtYwZ&gclid=Cj0KCQjwqPLOBhCiARIsAKRMPZpE52z5u121EgEB7xXOnOGTUD3MXlXGwLCPHHOBC8Nn0Mhy4Hp6kzwaAuCpEALw_wcB) |
+- [Arduino IDE](https://www.arduino.cc/en/software)
+- nRF Connect [IOS App](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403)   [Andriod App](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=en_US)   [Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop?utm_feeditemid=&utm_device=c&utm_term=&utm_source=google&utm_medium=ppc&utm_campaign=Pmax+%7C+Wi-Fi+%7C+US&hsa_cam=23209587568&hsa_grp=&hsa_mt=&hsa_src=x&hsa_ad=&hsa_acc=1116845495&hsa_net=adwords&hsa_kw=&hsa_tgt=&hsa_ver=3&gad_source=1&gad_campaignid=23205419936&gbraid=0AAAAADPygHIKDIqOxaDnVAOG_assCtYwZ&gclid=Cj0KCQjwqPLOBhCiARIsAKRMPZpE52z5u121EgEB7xXOnOGTUD3MXlXGwLCPHHOBC8Nn0Mhy4Hp6kzwaAuCpEALw_wcB)
 
 ## Libraries
 
