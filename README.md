@@ -106,7 +106,8 @@ tools/
 docs/
   ble_protocol.md             ← Full reverse-engineered BLE protocol reference
   lessons_learned.md          ← Every dead end and why, so you don't repeat them
-  development_history.md      ← stage-by-stage walkthrough of the whole project
+  development_history.md      ← Stage-by-stage walkthrough of the whole project
+  nrf_connect_guide.md        ← Guide covering the full process: scanning, connecting, reading the CLIENT tab, subscribing to NOTIFY, decoding bytes, and verifying
 ```
 
 ---
