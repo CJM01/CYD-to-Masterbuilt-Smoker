@@ -106,17 +106,18 @@ tools/
 docs/
   ble_protocol.md             ← Full reverse-engineered BLE protocol reference
   lessons_learned.md          ← Every dead end and why, so you don't repeat them
-  development_history.md      ← stage-by-stage walkthrough of the whole
+  development_history.md      ← stage-by-stage walkthrough of the whole project
 ```
 
 ---
 
 ## What It Displays
 
-- **Probe temp** — large, color-coded (orange below 200°F, red above)
-- **Smoker/box temp** — secondary panel
-- **Status bar** — connecting / connected / reconnecting
-- **Auto-reconnect** — smoker drops BLE after idle; the CYD reconnects automatically
+- **Probe temp** — orange below 200°F, red above
+- **Smoker/box temp** — green
+- **Cook Time** — counts HH:MM starting from zero at boot (name needs to be changed to 'Timer')
+- **Temperature History** — graphs the Probe and Smoker temps
+- **BLE Connection** — smoker drops BLE after idle; the CYD reconnects automatically
 
 ---
 
