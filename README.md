@@ -5,7 +5,7 @@ A working Arduino project that connects a **Cheap Yellow Display (CYD)** to a **
 
 > This repo documents the full journey: hardware setup, BLE reverse engineering, dead ends, and the final working solution. If you landed here searching for Masterbuilt BLE protocol info — you're in the right place.
 >
-> ![CYD with app](docs/Screenshot.jpg)
+> ![CYD with app](docs/screenshot.jpg)
 
 ---
 
