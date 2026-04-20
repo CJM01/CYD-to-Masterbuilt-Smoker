@@ -153,12 +153,12 @@ Status char  : 426f7567-6854-6563-2d57-65694c69fff2  (fff2 — READ, returns zer
 
 ## Future Plans
 
-- [ ] Set max temp above 255F (the temps max out at 255 and weird things happen)
-- [ ] Target temp display with progress indicator
-- [ ] Probe alarm (touch to set target, buzzer/flash on reach)
-- :white_check_mark: Temperature graph / sparkline over cook session
-- :white_check_mark: Cook timer
-- [ ] Button to Start and Stop timer
+- [ ] :thermometer: Set max temp above 255F (the temps max out at 255 and weird things happen)
+- [ ] :point_right: Target temp display with progress indicator
+- [ ] :rotating_light: Probe alarm (touch to set target, buzzer/flash on reach)
+- [x] :chart_with_upwards_trend: Temperature graph / sparkline over cook session
+- [x] :clock4: Cook timer
+- [ ] :play_or_pause_button: Button to Start and Stop timer
 
 ---
 
