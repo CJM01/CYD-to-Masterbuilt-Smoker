@@ -150,8 +150,9 @@ Status char  : 426f7567-6854-6563-2d57-65694c69fff2  (fff2 — READ, returns zer
 
 ---
 
-## Planned Features
+## Future Plans
 
+- [ ] Set max temp above 255F (the temps max out at 255 and weird things happen)
 - [ ] Target temp display with progress indicator
 - [ ] Probe alarm (touch to set target, buzzer/flash on reach)
 - [x] Temperature graph / sparkline over cook session
