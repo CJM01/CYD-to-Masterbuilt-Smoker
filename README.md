@@ -68,7 +68,7 @@ Place this in your TFT_eSPI `User_Setup.h` (or `User_Setup_Select.h`):
 #define SPI_TOUCH_FREQUENCY  2500000
 ```
 
-Touch calibration (not used but here incase you want buttons or tabs):
+Touch calibration (__Not used or needed for this project__ but here incase you want buttons or tabs help):
 ```cpp
 uint16_t calData[5] = { 305, 3590, 251, 3482, 7 };
 tft.setTouch(calData);
@@ -76,6 +76,7 @@ tft.setTouch(calData);
 NOTE: This is my calibration for this board and should work with similar size screens, should.
       There's a screen calibration tool in Arduino: Files/Examples/TFT-eSPI/Generic/Touch_calibrate
       The output is displayed in the Arduino Serial Monitor, Tools/Serial Monitor
+      This is for trouble shooting issues when touching the screnn doesn't align with the button/screen layout
 ```
 
 ---
